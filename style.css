@@ -15,6 +15,7 @@ header h1 {
     text-align: center;
     font-size: 24px;
     margin-bottom: 10px;
+    min-height: 2em;
 }
 
 nav {
@@ -89,3 +90,33 @@ section h3 {
     height: 200px;
 }
 
+#history {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.history-entry {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#thanks {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.thanks-entry {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}

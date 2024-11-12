@@ -8,7 +8,7 @@
     <body>
         <div class="container">
             <header>
-                <h1>Corporate Email Translator</h1>
+                <h1 id="typed"></h1>
                 <nav>
                     <a href="home.html">Home</a>
                     <a href="about.html">About</a>
@@ -18,13 +18,37 @@
             
             <main>
                 <h2>Simple Words</h2>
-                <input type="text" placeholder="Simple">
+                <input type="text" id="simplephrase" name="simplephrase" placeholder="Simple">
                 <h2>Corporate Jargon</h2>
-                <input id = "result" type="text" placeholder="Corporate">
+                <input id = "result" name="result" type="text" placeholder="Corporate">
                 <button class="translate-btn" onclick="fetchTranslation()">Translate</button>
+                <section id="history">
+                    <h3>Recent Translations</h3>
+                    <!-- History entries will be added here by JavaScript -->
+                    <div id="data-display">
+                        <div>
+                            <strong>Time:</strong> 13:04:49 <br> <strong>Phrase:</strong> use google docs
+                        </div>
+                    </div>
+                    
+                </section>
+<br>
+                <section id="thanks">
+                    <h2>Thanks to the creators!!</h2>
+                    <div id="persons-display">
+
+                    </div>
+                </section>
+                
             </main>
         </div>
     </body>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="app.js"></script>
     <script src="script.js"></script>
+    <script src="vanillatilt.js"></script>
+    <script src="typed.js"></script>
 </html>
