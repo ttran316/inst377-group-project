@@ -7,6 +7,9 @@ Thomas Tran, Sharanya Padithaya, Allen Jiang, Mohamed Ndaloma
 # Title of Project
 Corporate Talk
 
+# Vercel link to Project
+https://inst377-group-project.vercel.app/home.html
+
 # Description of Project
 When talking to your coworkers in the work environment, sometimes you need to speak in a way that makes it seem like you know what you are talking about. The more ssophisticated you sound the higher potential of being promoted, possibly.
 
