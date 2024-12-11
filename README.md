@@ -5,13 +5,14 @@ Group 24
 Thomas Tran, Sharanya Padithaya, Allen Jiang, Mohamed Ndaloma
 
 # Title of Project
-Corporate Talk
+Corporate Talk Translator
 
 # Vercel link to Project
 https://inst377-group-project.vercel.app/home.html
 
 # Description of Project
-When talking to your coworkers in the work environment, sometimes you need to speak in a way that makes it seem like you know what you are talking about. The more ssophisticated you sound the higher potential of being promoted, possibly.
+When talking to your coworkers in the work environment, sometimes you need to speak in a way that makes it seem like you know what you are talking about. The more sophisticated you sound the higher potential of being promoted, possibly.
+Additionally, when submitting a resumé for job interviews, it is likely that AI is being used to filter through hundreds or thousands of submissions. Correctly using such phrases and the presence of them itself may boost your chances of being selected.
 
 # Description of target browsers
 Mainly on a computer with the use of microsoft edge or google chrome
@@ -24,13 +25,13 @@ How to install your application and all dependencies?
 4. After that, a console will open up and you can input the command "git clone git@github.com:ttran316/inst377-group-project.git"
 5. It should now download all the necessary files. 
 
-How to run your application on a server?
+**How to run your application on a server?**
 In order to run the application on a server, you would need to get an extension called Live Server. This can be found by being in Visual Studios and clicking the keybinds of (Ctrl+Shift+X). Afterwards you would search up Live Server from Ritwick Dey.
 
-How to run any tests you have written for your software?
+**How to run any tests you have written for your software?**
 The best way to run tests is to utilize Insominia and check if there are any errors. Alternatively, you could create console.logs within the code if you want to alter it and an issue arises.
 
-The API for your server application
+**The API for your server application**
 GET /api/data: This gets all the words from the translate table that you have recently inputted into the translator. It will display both the word you inputted and the time it was done. Please note that it is deleted after refreshing the page.
 
 GET /api/person: This gets all the people that have worked on the project. If you are in need of assistence you can come look for us via our names.
